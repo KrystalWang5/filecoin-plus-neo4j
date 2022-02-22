@@ -9,10 +9,6 @@ export const layout = (): BasicLayoutProps => {
           path: '/antv',
           name: 'G6模型',
         },
-        {
-          path: '/d3',
-          name: 'd3模型',
-        },
       ],
     },
   };
