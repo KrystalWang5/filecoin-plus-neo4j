@@ -18,21 +18,11 @@ export default () => {
           title_properties: ['name', 'pagerank'],
           //"sizeCypher": "MATCH (n) WHERE id(n) = {id} MATCH (n)-[r]-() RETURN sum(r.weight) AS c"
         },
-        [NeoVis.NEOVIS_DEFAULT_CONFIG]: {
-          caption: 'defaultCaptionProperty',
-          size: 'defaultPagerank',
-          community: 'defaultCommunity',
-          //"sizeCypher": "defaultSizeCypher"
-        },
       },
       relationships: {
         INTERACTS: {
           thickness: 'weight',
           caption: false,
-        },
-        [NeoVis.NEOVIS_DEFAULT_CONFIG]: {
-          thickness: 'defaultThicknessProperty',
-          caption: 'defaultCaption',
         },
       },
       initial_cypher: `
