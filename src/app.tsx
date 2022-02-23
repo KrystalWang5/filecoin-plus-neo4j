@@ -7,7 +7,11 @@ export const layout = (): BasicLayoutProps => {
       routes: [
         {
           path: '/antv',
-          name: 'G6模型',
+          name: 'antv',
+        },
+        {
+          path: '/neovis',
+          name: 'neovis',
         },
       ],
     },

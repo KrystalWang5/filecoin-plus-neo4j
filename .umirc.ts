@@ -9,6 +9,7 @@ export default defineConfig({
     { path: '/', exact: true, redirect: '/antv' },
     { path: '/antv', component: '@/pages/antv/index' },
     { path: '/d3', component: '@/pages/d3/index' },
+    { path: '/neovis', component: '@/pages/neovis/index' },
   ],
   fastRefresh: {},
   proxy: {
