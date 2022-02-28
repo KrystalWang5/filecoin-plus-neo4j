@@ -8,7 +8,7 @@ const { Menu } = ContextMenu;
 const icons = Graphin.registerFontFamily(iconLoader);
 
 const layout = {
-  type: 'graphin-force',
+  type: 'concentric',
 };
 
 const SettingNode = ({

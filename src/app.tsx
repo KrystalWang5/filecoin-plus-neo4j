@@ -13,6 +13,10 @@ export const layout = (): BasicLayoutProps => {
           path: '/neovis',
           name: 'neovis',
         },
+        {
+          path: '/neo4j',
+          name: 'neo4j',
+        },
       ],
     },
   };
